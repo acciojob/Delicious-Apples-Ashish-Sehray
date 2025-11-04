@@ -1,1 +1,108 @@
 /* your code here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: greenyellow;
+}
+
+h1, h2 {
+    color: #4CAF50;
+}
+.product{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+
+.product__photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-container {
+    margin: 20px 0;
+}
+
+.photo-main img {
+    max-width: 100%;
+    height: auto;
+}
+
+.photo-album {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.photo-album ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.photo-album li {
+    margin: 0 10px;
+	display:inline;
+}
+
+.photo-album img {
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+    cursor: pointer;
+}
+
+/* Price styles */
+.price {
+    font-size: 24px;
+    color: #D32F2F; /* Red color for price */
+    font-weight: bold;
+}
+
+/* Variant styles */
+.variant {
+    margin-top: 20px;
+	width: 100%;
+	color:graytext;
+}
+
+.variant ul {
+    list-style-type:none;
+}
+
+.variant ul li {
+	display:inline;
+    text-align: center;
+}
+.variant ul li img{
+	height:50px;
+}
+
+/* Benefits section */
+.description {
+    margin-top: 20px;
+    background-color: #e8f5e9;
+    padding: 10px;
+    border: 1px solid #c8e6c9;
+}
+
+/* Add to cart button */
+.add-to-cart {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+	font-weight:700;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px auto;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: indianred;
+}
